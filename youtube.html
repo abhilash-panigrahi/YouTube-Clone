@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>YouTube.com Clone</title>
+        <!--Tried to clone the main youtube homepage-->
+        <link rel="stylesheet" href="styles/general.css">
+        <link rel="stylesheet" href="styles/header.css">
+        <link rel="stylesheet" href="styles/sidebar.css">
+        <link rel="stylesheet" href="styles/video.css">
+    </head>
+    <body>
+        <header class="header">
+            <div class="left-section">
+                <img class="hamburger-menu" src="icons/hamburger-menu.svg">
+                <img class="youtube-logo" src="icons/youtube-logo.svg">
+            </div>
+            <div class="mid-section">
+                <input class="search-bar" type="text" placeholder="Search">
+                <button class="search-button">
+                    <img src="icons/search.svg">
+                    <div class="tooltip">Search</div>
+                </button>
+                <img class="mic" src="">
+            </div>
+            <div class="right-section">
+                <div class="upload-icon-container">
+                    <img class="upload-icon" src="icons/upload.svg">
+                    <div class="tooltip">Create</div>
+                </div>
+                <img class="youtube-apps-icon" src="icons/youtube-apps.svg">
+                <div class="notifications-icon-container">
+                    <img class="notifications-icon" src="icons/notifications.svg">
+                    <div class="notifications-count">3</div>
+                    <div class="tooltip">Notifications</div>
+                </div>
+                <img class="current-user-picture" src="icons/my-channel.jpeg">
+            </div>
+        </header>
+        
+        <nav class="sidebar">
+            <div class="unit-1">
+                <img src="icons/home.svg">
+                <div style="font-family: arial; font-size: 10px;">Home</div>
+            </div>
+            <div class="unit-1">
+                <img src="icons/explore.svg">
+                <div style="font-family: arial; font-size: 10px;">Explore</div>
+            </div>
+            <div class="unit-1">
+                <img src="icons/subscriptions.svg">
+                <div style="font-family: arial; font-size: 10px;">Subscriptions</div>
+            </div>  
+            <div class="unit-1">
+                <img src="icons/originals.svg">
+                <div style="font-family: arial; font-size: 10px;">Originals</div>
+            </div>  
+            <div class="unit-1">
+                <img src="icons/youtube-music.svg">
+                <div style="font-family: arial; font-size: 10px;">YouTube Music</div></div>  
+            <div class="unit-1">
+                <img src="icons/library.svg">
+                <div style="font-family: arial; font-size: 10px;">Library</div>
+            </div>               
+        </nav>
+
+        <main>
+        <div class="video-grid">
+            <div class="unit">
+                <div class="img-section">
+                    <img class="thumbnail" src="thumbnails/thumbnail-1.png" href="https://youtu.be/e9uUZ40vPdA?si=axVbLeqlgO0qnJ5A">
+                    <div class="video-time">14:20</div>
+                </div>
+                <div class="video-info-grid">
+                    <div><img class="channel-picture" src="channel-pictures/channel-1.jpeg"></div>
+                    <div class="video-info">
+                        <div class="a"><strong>DEBATE: Building the ULTIMATE XI From Players At Their PEAK</strong></div>
+                        <div class="b">SDS</div>
+                        <div class="c">3.4M views &middot; 3 months ago</div>
+                    </div>
+                </div>            
+            </div>
+            <div class="unit">
+                <div class="img-section">
+                    <img class="thumbnail" src="thumbnails/thumbnail-2.png" href="https://youtu.be/gMMu6MjtBUg?si=Zn52hjtSiX6CwurY">
+                    <div class="video-time">8:22</div>
+                </div>
+                <div class="video-info-grid">
+                    <div><img class="channel-picture" src="channel-pictures/channel-2.jpeg"></div>
+                    <div class="video-info">
+                        <div class="a"><strong>EXTENDED HIGHLIGHTS! | Nottingham Forest 1-2 Man City | Late Cherki winner!</strong></div>
+                        <div class="b">ManCity</div>
+                        <div class="c">19M views &#183; 2 years ago</div>
+                    </div>
+                </div>            
+            </div>
+            <div class="unit">
+                <div class="img-section">
+                    <img class="thumbnail" src="thumbnails/thumbnail-3.png">
+                    <div class="video-time">14:20</div>
+                </div>
+                <div class="video-info-grid">
+                    <div><img class="channel-picture" src="channel-pictures/channel-3.jpg"></div>
+                    <div class="video-info">
+                        <div class="a"><strong>GUESS THE FOOTBALLER with Arsenal's William Saliba & David Raya | Pick The Pro</strong></div>
+                        <div class="b">Sky Sports Premier League</div>
+                        <div class="c">12M views &#183; 1 year ago</div>
+                    </div>
+                </div>            
+            </div>
+            <div class="unit">
+                <div class="img-section">
+                    <img class="thumbnail" src="thumbnails/thumbnail-4.png">
+                    <div class="video-time">14:20</div>
+                </div>
+                <div class="video-info-grid">
+                    <div><img class="channel-picture" src="channel-pictures/channel-4.jpeg"></div>
+                    <div class="video-info">
+                        <div class="a"><strong>The Simplest Math Problem No One Can Solve - Collatz Conjecture</strong></div>
+                        <div class="b">Veritasium</div>
+                        <div class="c">18M views &#183; 4 months ago</div>
+                    </div>
+                </div>            
+            </div>
+            <div class="unit">
+                <div class="img-section">
+                    <img class="thumbnail" src="thumbnails/thumbnail-5.png">
+                    <div class="video-time">14:20</div>
+                </div>
+                <div class="video-info-grid">
+                    <div><img class="channel-picture" src="channel-pictures/channel-5.jpeg"></div>
+                    <div class="video-info">
+                        <div class="a"><strong>Kadane's Algorithm to Maximum Sum Subarray Problem</strong></div>
+                        <div class="b">CS Dojo</div>
+                        <div class="c">519K views &#183; 5 years ago</div>
+                    </div>
+                </div>            
+            </div>
+            <div class="unit">
+                <div class="img-section">
+                    <img class="thumbnail" src="thumbnails/thumbnail-6.png">
+                    <div class="video-time">14:20</div>
+                </div>
+                <div class="video-info-grid">
+                    <div><img class="channel-picture" src="channel-pictures/channel-6.jpeg"></div>
+                    <div class="video-info">
+                        <div class="a"><strong>Anything You Can Fit In The Circle I’ll Pay For</strong></div>
+                        <div class="b">MrBeast</div>
+                        <div class="c">141M views &#183; 1 year ago</div>
+                    </div>
+                </div>            
+            </div>
+            <div class="unit">
+                <div class="img-section">
+                    <img class="thumbnail" src="thumbnails/thumbnail-7.png">
+                    <div class="video-time">14:20</div>
+                </div>
+                <div class="video-info-grid">
+                    <div><img class="channel-picture" src="channel-pictures/channel-7.jpg"></div>
+                    <div class="video-info">
+                        <div class="a"><strong>WHO ARE THE FRAUDS!? | GUESS THE ARSENAL PLAYER 4 | Saliba, Sharky & Ebe</strong></div>
+                        <div class="b">Arsenal</div>
+                        <div class="c">2.1M views &#183; 1 year ago</div>
+                    </div>
+                </div>            
+            </div>
+            <div class="unit">
+                <div class="img-section">
+                    <img class="thumbnail" src="thumbnails/thumbnail-8.png">
+                    <div class="video-time">14:20</div>
+                </div>
+                <div class="video-info-grid">
+                    <div><img class="channel-picture" src="channel-pictures/channel-8.jpg"></div>
+                    <div class="video-info">
+                        <div class="a"><strong>Never Back Down Iconic Training Montage</strong></div>
+                        <div class="b">Boxoffice Movie Scenes</div>
+                        <div class="c">141M views &#183; 1 year ago</div>
+                    </div>
+                </div>            
+            </div>
+        </div>
+        </main>
+    </body>
+</html>
